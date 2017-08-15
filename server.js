@@ -14,7 +14,7 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 app.get('/ui/article1_img/fire1.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'article1_img/fire1.jpg'));
+  res.sendFile(path.join(__dirname, 'ui/article1_img', 'fire1.jpg'));
 });
 
 app.get('/ui/madi.png', function (req, res) {
